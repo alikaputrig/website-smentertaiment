@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM ENTERTAIMENT</title>
+    <link rel="stylesheet" href="DESIGN.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <p><a href="ABOUT.html">ABOUT</p>
+            <p><a href="CONTACT.html">CONTACT</p>
+            <p><a href="LOCATION.html">LOCATION</a></p>
+        </nav>
+    
+
+        <div class="intro">
+
+            <video autoplay muted loop id="myVideo">
+                <source src="WhatsApp Video 2024-10-17 at 14.00.35.mp4" type="video/mp4">
+                
+              </video>
+        </div>
+    </header>
+
+    <!-- Main section with three columns -->
+    <section class="main-section">
+        <div class="profile">
+          <button><a href="product.html">PRODUCT</a></button>
+          <img src="download 3.jpeg">
+        </div>
+        <div class="profile">
+            <button><a href="artist.html">ARTIST</a></button>
+            <img src="images 4.jpeg">
+        </div>
+        <div class="profile">
+            <button><a href="audition.html">AUDITION</a></button>
+            <img src="download 5.png">
+        </div>
+    </section>
+
+    <!-- Recents Update Section -->
+    <section class="recents-update">
+        <h2>RECENTS UPDATE OF US</h2>
+        <div class="recent">
+            <img src="WhatsApp Image 2024-10-16 at 11.45.03.jpeg" alt="Recent 1" width="150px" height="100px">
+            <p>Aespa comeback on october 21 "whiplash" will bring you the future of music.</p>
+        </div>
+        <div class="recent">
+            <img src="WhatsApp Image 2024-10-16 at 11.45.38.jpeg" alt="Recent 2" width="150px" height="100px">
+            <p>Seunghan announce leaving riize and will be focus on his solo career.</p>
+        </div>
+        <div class="recent">
+            <img src="WhatsApp Image 2024-10-16 at 11.52.03.jpeg" alt="Recent 3" width="150px" height="100px">
+            <p>NCT 127 world tour "The Link"</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <img src="download__1_-removebg-preview.png">
+    </footer>
+
+
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+    
+</body>
+</html>
